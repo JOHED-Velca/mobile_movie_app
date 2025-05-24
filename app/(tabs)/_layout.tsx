@@ -33,6 +33,9 @@ const _Layout = () => {
             options={{
                 title: 'Search',
                 headerShown: false,
+                tabBarIcon: ({ focused }) => (
+                    <TabIcon />
+                )
             }}
         />
         <Tabs.Screen
@@ -40,6 +43,9 @@ const _Layout = () => {
             options={{
                 title: 'Saved',
                 headerShown: false,
+                tabBarIcon: ({ focused }) => (
+                    <TabIcon />
+                )
             }}
         />
         <Tabs.Screen
@@ -47,6 +53,9 @@ const _Layout = () => {
             options={{
                 title: 'Profile',
                 headerShown: false,
+                tabBarIcon: ({ focused }) => (
+                    <TabIcon />
+                )
             }}
         />
     </Tabs>
